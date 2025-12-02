@@ -7,7 +7,7 @@ export const TAGLINE = "AI Engineer // Frontend Dev";
 
 export const TICKER_TEXTS = [
   "SYSTEM STATUS: ONLINE",
-  "LATEST PROJECT: UNIV_CIRCLE_CONNECT",
+  "LATEST PROJECT: LIVEE",
   "AVAILABLE FOR INTERNSHIPS",
   "INTEGRATING: GEMINI API",
   "LAST LOGIN: JUST NOW",
@@ -45,39 +45,20 @@ export const CAREER_HISTORY: HistoryItem[] = [
 export const PROJECTS: Project[] = [
   {
     id: "univ-circle",
-    title: "UNIV_CIRCLE_CONNECT",
+    title: "UNIV_CIRCLE",
     description: "AI(Gemini)を活用した次世代サークル新歓プラットフォーム。自然言語マッチングや紹介文のAI推敲機能を搭載し、グラスモーフィズムと3Dアニメーションによる没入感のあるUIを提供。",
     tags: ["React", "Gemini API", "Tailwind", "Cloud Run"],
-    // thum.io を使用してサイトのスクリーンショットをリアルタイム取得
-    imageUrl: "https://image.thum.io/get/width/800/crop/600/noanimate/https://univcircle-connect-1068348265766.us-west1.run.app/",
+    imageUrl: "./public/univ-circle.png",
     link: "https://univcircle-connect-1068348265766.us-west1.run.app/",
     status: 'ONLINE'
   },
   {
-    id: "p2",
-    title: "CYBER_MARKET",
-    description: "高頻度取引チャートを備えた分散型マーケットプレイスのダッシュボード。経済指標のリアルタイム可視化。",
-    tags: ["Solidity", "Next.js", "D3.js"],
-    imageUrl: "https://picsum.photos/seed/market/600/400",
-    link: "/project/cyber-market",
-    status: 'DEVELOPMENT'
-  },
-  {
-    id: "p3",
-    title: "GHOST_PROTOCOL",
-    description: "一時的なストレージとターミナルベースのUIを備えた暗号化メッセージングサービス。",
-    tags: ["Rust", "WebAssembly", "Socket.io"],
-    imageUrl: "https://picsum.photos/seed/ghost/600/400",
-    link: "/project/ghost-protocol",
+    id: "livee",
+    title: "LIVEE",
+    description: "ライブハウスやフェスに通う熱狂的な音楽ファンのための統合アプリ。",
+    tags: ["React", "Tailwind", "Gemini API", "Cloud Run"],
+    imageUrl: "./public/LIVEE.png",
+    link: "https://livee-560980492248.us-west1.run.app/",
     status: 'ONLINE'
-  },
-  {
-    id: "p4",
-    title: "SYNTH_WAVE_GEN",
-    description: "レトロウェーブの美学に基づいたAI駆動の音楽生成ツール。",
-    tags: ["Python", "TensorFlow", "React"],
-    imageUrl: "https://picsum.photos/seed/synth/600/400",
-    link: "/project/synth-wave",
-    status: 'OFFLINE'
   }
 ];

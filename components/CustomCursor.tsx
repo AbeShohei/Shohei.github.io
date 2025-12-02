@@ -65,7 +65,7 @@ const CustomCursor: React.FC = () => {
       {/* Main Cursor (Exact Position) */}
       <div 
         ref={cursorRef}
-        className="fixed top-0 left-0 pointer-events-none z-[100] mix-blend-difference"
+        className="fixed top-0 left-0 pointer-events-none z-[99999] mix-blend-difference"
         style={{ 
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
@@ -88,7 +88,7 @@ const CustomCursor: React.FC = () => {
       {/* Trailing Cursor (Outer Ring) */}
       <div 
         ref={trailerRef}
-        className="fixed top-0 left-0 pointer-events-none z-[99] mix-blend-screen"
+        className="fixed top-0 left-0 pointer-events-none z-[99998] mix-blend-screen"
         style={{
           willChange: 'transform'
         }}
